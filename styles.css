@@ -1,0 +1,54 @@
+/* dar formato a la pagina */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+} 
+/* dar formato al header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+/* dar formato al nav */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+/* dar formato al footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+/* dar formato al h1 */
+
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+/* hacer responsive el header */
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
