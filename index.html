@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Description" content="Template portafolio desarrollador UI/UX " />
-    <title>Andre Sierra Project</title>
+    <title>Sierra Project</title>
     <link rel="stylesheet" href="style.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/primeflex@^3/primeflex.css">
@@ -31,8 +31,9 @@
             <div class="header__info flex align-items-center gap-3">
                 <ul class="flex flex-column xl:flex-row list-none">
                     <li onclick="scrollToSection('about')">Informacion</li>
-                    <li onclick="scrollToSection('services')">Servicios</li>
+                 <!--   <li onclick="scrollToSection('services')">Servicios</li>
                     <li onclick="scrollToSection('portfolio')">Portafolio</li>
+                    -->
                 </ul>
                 <div class="hireMe__button pt-4">
                     <a href="mailTo:desierrandre@icloud.com" aria-label="Enviar mensaje al correo"
@@ -47,20 +48,23 @@
             class="home__page flex align-items-center justify-content-center xl\:justify-content-between grid grid-nogutter gap-4">
             <div class="left__content col-12 xl:col-6">
                 <div class="message__bubble triangle mb-4 md:mb-2">
-                    <div class="message__text p-2 sm:p-3 text-center">
+                    <!-- <div class="message__text p-2 sm:p-3 text-center">
                         <p>Hola, Yo soy</p>
                     </div>
+                  --> 
                 </div>
                 <h1 class="text-3xl sm:text-5xl md:text-7xl">Andres Sierra</h1>
                 <p class="text-gray-500">
                     Estudiante de Ingenieria de Sistemas / Infomatica
                 </p>
+                <!-- 
                 <div class="home__buttons flex align-items-center gap-2 mt-6">
                     <a href="./assets/CURRICULUM.pdf" aria-label="Descargar curriculum"
                         class="cursor-pointer border-round-lg no-underline" download>Descargar CV</a>
                     <button onclick="scrollToSection('portfolio')" aria-label="Deslizar a sección portafolio para mostrar mis trabajos"
                         class="cursor-pointer border-round-lg">Mi trabajo</button>
                 </div>
+                -->
             </div>
             <div class="right__content col-9 sm:col-6 xl:col-5">
                 <img src="./assets/foto-perfil.png" alt="Foto perfil" width="100" height="100">
@@ -109,7 +113,7 @@
     </div>
     <!--FREE LANCER SECTION -->
 
-    <!--SERVICES -->
+    <!--SERVICES 
     <div class="container">
         <section id="services" class="services min-h-full w-full pb-7">
             <div class="services__title flex flex-column gap-3 text-center">
@@ -124,7 +128,7 @@
                         <i class="fa-brands fa-html5"></i>
                     </div>
                     <div class="service__name">
-                        <p>HTML</p>
+                        <p>Python</p>
                     </div>
                 </div>
                 <div class="card flex align-items-center col-12 sm:col lg:col-4 gap-3 p-2">
@@ -132,7 +136,7 @@
                         <i class="fa-brands fa-wordpress"></i>
                     </div>
                     <div class="service__name">
-                        <p>Wordpress</p>
+                        <p>HTML</p>
                     </div>
                 </div>
                 <div class="card flex align-items-center col-12 sm:col-6 md:col-3 lg:col gap-3 p-2">
@@ -140,7 +144,7 @@
                         <i class="fa-brands fa-angular"></i>
                     </div>
                     <div class="service__name">
-                        <p>Angular</p>
+                        <p>JAVA</p>
                     </div>
                 </div>
                 <div class="card flex align-items-center col-12 sm:col md:col lg:col-4 gap-3 p-2">
@@ -148,17 +152,10 @@
                         <i class="fa-brands fa-react"></i>
                     </div>
                     <div class="service__name">
-                        <p>React Js</p>
+                        <p>SQL</p>
                     </div>
                 </div>
-                <div class="card flex align-items-center col-12 sm:col-6 md:col-4 lg:col-4 gap-3 p-2">
-                    <div class="service__logo flex align-items-center justify-content-center ">
-                        <i class="fa-solid fa-mobile-screen-button"></i>
-                    </div>
-                    <div class="service__name">
-                        <p>Desarrollo Móvil</p>
-                    </div>
-                </div>
+
                 <div class="card flex align-items-center col-12 sm:col md:col-4 lg:col gap-3 p-2">
                     <div class="service__logo flex align-items-center justify-content-center ">
                         <i class="fa-solid fa-code"></i>
@@ -167,27 +164,37 @@
                         <p>Desarrollo web</p>
                     </div>
                 </div>
+                <div class="card flex align-items-center col-12 sm:col-6 md:col-4 lg:col-4 gap-3 p-2">
+                  <div class="service__logo flex align-items-center justify-content-center ">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                  </div>
+                  <div class="service__name">
+                      <p>Desarrollo Móvil</p>
+                  </div>
+              </div>
             </div>
         </section>
 
-        <!--PORTFOLIO -->
+        <!--PORTFOLIO 
         <section id="portfolio" class="portfolio min-h-full w-full pb-8 pt-8">
             <div class="portfolio__title flex flex-column gap-3 text-center">
-                <h1 class="text-3xl md:text-5xl">Mi trabajo</h1>
+                <h1 class="text-3xl md:text-5xl">Mis proyectos</h1>
                 <p class="text-gray-400 text-sm md:text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum odit ab mollitia optio quod
-                    recusandae placeat aliquam veniam officiis cum quam eum architecto quidem, nobis commodi consequatur
-                    distinctio ullam non.
+                  Bienvenidos a mi sección de proyectos, soy un estudiante universitario apasionado 
+                  por el desarrollo web y la programación en general. Durante mi carrera, he tenido 
+                  la oportunidad de trabajar en varios proyectos interesantes, tanto dentro como 
+                  fuera de la universidad.
                 </p>
             </div>
+            
             <div class="portfolio__gallery">
                 <div class="gallery__categories mb-5 mt-5">
                     <ul class="flex list-none flex-wrap justify-content-center gap-3">
                         <li class="filter-item active" data-filter="all">Todos</li>
-                        <li class="filter-item " data-filter="gym">Gimnasio</li>
-                        <li class="filter-item " data-filter="tours__Web">Tours web</li>
-                        <li class="filter-item " data-filter="world__Tours">Inmobiliaria web</li>
-                        <li class="filter-item " data-filter="e__commerce">E-commerce</li>
+                        <li class="filter-item " data-filter="python">Python</li>
+                        <li class="filter-item " data-filter="java">Java</li>
+                        <li class="filter-item " data-filter="sql">SQL</li>
+                        <li class="filter-item " data-filter="otros">otros</li>
                     </ul>
                 </div>
                 <div class="proyect__gallery flex justify-content-center align-items-center flex-wrap gap-3">
@@ -260,7 +267,8 @@
                 </div>
             </div>
         </section>
-        <!--FOOTER -->
+      -->
+        <!--FOOTER 
         <footer id="contact" class="min-h-full w-full flex grid col-12 justify-content-center pb-8 pt-8 lg:text-center">
             <div class="social__media col-12 md:col-4 flex flex-column justify-content-between">
                 <h3>Redes sociales</h3>
@@ -304,7 +312,7 @@
             </div>
         </footer>
     </div>
-
+  -->
 </body>
 <script>
     const filterContainer = document.querySelector(".gallery__categories");
