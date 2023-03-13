@@ -6,21 +6,20 @@ function App() {
   const [password, setPassword] = useState("");
 
   const generatePassword = () => {
+    console.log("Generating a new password");
     const newPassword = PasswordGenerator.generatePassword();
+    console.log("Password generated");
     setPassword(newPassword);
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Generador de contraseñas</h1>
-        <button onClick={generatePassword}>Generar contraseña</button>
-        <div className="password">{password}</div>
-      </header>
-      <footer className="App-footer">
-        <p>Desarrollado por Andres</p>
-      </footer>
-    </div>
+    <div class="main">
+  <title_h1>Generador de contraseñas</title_h1>
+  <div class="password-generator-container">
+    <button class="password-generator-button" onClick={generatePassword}>Generar contraseña</button>
+    <p class = "password-generator-password">{password}</p>
+  </div>
+</div>
   );
 }
 
